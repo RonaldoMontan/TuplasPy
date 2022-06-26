@@ -1,5 +1,3 @@
-
-
 tupula = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'quatorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
 continua = ''
 
@@ -13,3 +11,4 @@ while continua in 'sS':
     print(tupula[escolha])
     continua = str(input('Gostaria de continuar? '))[0]
 
+print('Programa encerrado')
